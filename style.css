@@ -6,6 +6,12 @@
   --text: #1f2403;
 }
 
+:root[data-theme='dark'] {
+  --background-primary: #132221;
+  --background-secondary: #476462;
+  --text: #e1e1e1;
+}
+
 /* ZÁKLADNÍ STYLY */
 
 *,
@@ -203,7 +209,7 @@ a {
   background-color: var(--background-secondary);
 }
 
-header {
+.page-header {
   background-color: var(--background-secondary);
   display: flex;
   flex-direction: row;
